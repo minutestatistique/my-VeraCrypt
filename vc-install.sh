@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# install VeraCrypt
 if [ -d VeraCrypt ]; then
 	rm -rf VeraCrypt
 fi
