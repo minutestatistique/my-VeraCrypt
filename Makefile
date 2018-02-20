@@ -16,5 +16,8 @@ dismount:
 	chmod u+x vc-dismount.sh
 	./vc-dismount.sh VC_FILE /media/vc1
 
+uninstall:
+	/usr/bin/veracrypt-uninstall.sh
+
 clean:
 	rm vc_conf VC_FILE mount_conf
